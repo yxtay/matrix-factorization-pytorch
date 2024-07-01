@@ -14,19 +14,19 @@ readme = "README.md"
 # python pinned to 3.11 due to ray
 python = "^3.11,<3.12"
 bentoml = "^1.2"
-deltalake = ">=0.17,<0.18"
+deltalake = ">=0.18.1,<0.19"
 docarray = ">=0.40.0"
 flaml = "^2.1"
 lancedb = ">=0.8"
-lightning = { extras = ["pytorch-extra"], version = "^2.2.5" }
+lightning = { extras = ["pytorch-extra"], version = "^2.3.1" }
 loguru = ">=0.7"
-mlflow = "^2.13"
+mlflow = "^2.14"
 mmh3 = "^4.1"
 optuna = "^3.6"
 polars = { extras = ["pandas"], version = ">=0.20" }
-ray = { extras = ["data", "train", "tune"], version = "^2.24" }
+ray = { extras = ["data", "train", "tune"], version = "^2.31" }
 tensorboard = "^2.17"
-torch = "^2.2,<2.3"
+torch = "^2.3"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7"
